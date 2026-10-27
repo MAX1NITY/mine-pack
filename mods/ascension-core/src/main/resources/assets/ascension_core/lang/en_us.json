@@ -1,0 +1,10 @@
+{
+  "itemGroup.ascension_core": "Ascension",
+  "item.ascension_core.tech_essence": "Tech Essence",
+  "item.ascension_core.arcane_essence": "Arcane Essence",
+  "item.ascension_core.wanderer_essence": "Wanderer Essence",
+  "path.ascension_core.tech": "Tech",
+  "path.ascension_core.arcane": "Arcane",
+  "path.ascension_core.wanderer": "Wanderer",
+  "tooltip.ascension_core.essence": "Right-click to gain 1 %s Ascension point"
+}

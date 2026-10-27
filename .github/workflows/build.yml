@@ -1,0 +1,35 @@
+name: Build mods
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'mods/**'
+      - '.github/workflows/**'
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ascension-core:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.1.1'
+
+      - name: Build
+        working-directory: mods/ascension-core
+        run: gradle build --stacktrace
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: ascension-core
+          path: mods/ascension-core/build/libs/*.jar
+          if-no-files-found: error
