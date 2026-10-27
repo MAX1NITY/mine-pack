@@ -25,10 +25,17 @@ Target: Minecraft 1.20.1, Forge, singleplayer, about 150-200 mods, 6-8 GB RAM.
   Artifacts, Curios
 - Cozy: Farmer's Delight, Supplementaries, Macaw's mods
 
+## Status
+
+- Done: Ascension Core v0.1, packwiz pack (79 mods incl. dependencies, all resolved by exact Modrinth slug),
+  pack export with custom mods included, and a real Forge server boot test that passes in CI.
+- Not covered by the server test: client-only code (rendering, shaders, UI). Launch the pack on a PC to check.
+- Known gaps: FTB Quests and Twilight Forest are not available for Forge 1.20.1 on Modrinth, so they are out.
+  Two Iron's Spells 'n Spellbooks loot tables log parse warnings on startup (some dungeon chest loot may be affected).
+
 ## Next steps
 
-1. Confirm Ascension Core builds green in CI, playtest in a dev client.
-2. Add packwiz metadata for the curated base and a pack export step.
-3. KubeJS layer: replace placeholder essence recipes with mod-aware ones, gate content on tier tags.
-4. FTB Quests line that walks the three paths.
-5. Build Rift Expeditions, then the rest.
+1. Launch the pack on a real PC, report crashes or anything that feels off.
+2. KubeJS layer: replace placeholder essence recipes with mod-aware ones, gate content on tier tags.
+3. Build Rift Expeditions, then Contract Board, Dreamscape, Mutator Events, Companions, Codex.
+4. Re-run the server test after every change and keep the pack stable.
