@@ -1,0 +1,64 @@
+packwiz: Error: unknown flag: --version
+started: 2026-10-27T22:40:59Z
+ok      embeddium
+ok      oculus
+ok      modernfix
+ok      ferrite-core
+ok      entityculling
+ok      jei
+ok      jade
+ok      journeymap
+ok      sophisticated-backpacks
+ok      appleskin
+ok      waystones
+ok      kubejs
+FAILED  ftb-quests-forge (exit 1)
+        Searching Modrinth...
+        Failed to add project: no projects found
+ok      terralith
+ok      biomes-o-plenty
+FAILED  the-twilight-forest (exit 1)
+        Searching Modrinth...
+        Failed to add project: failed to get latest version: no valid versions found
+        	Use the 'packwiz settings acceptable-versions' command to accept more game versions
+        	To use datapacks, add a datapack loader mod and specify the datapack-folder option with the folder this mod loads datapacks from
+ok      aether
+ok      alexs-mobs
+FAILED  lendercataclysm (exit 1)
+        Searching Modrinth...
+        Failed to add project: no projects found
+ok      mowzies-mobs
+ok      yungs-api
+ok      yungs-better-dungeons
+ok      yungs-better-mineshafts
+ok      yungs-better-strongholds
+ok      yungs-better-nether-fortresses
+ok      yungs-better-desert-temples
+ok      yungs-better-jungle-temples
+ok      yungs-better-ocean-monuments
+ok      yungs-better-witch-huts
+ok      epic-fight
+ok      better-combat
+ok      simply-swords
+ok      create
+ok      mekanism
+ok      ae2
+ok      irons-spells-n-spellbooks
+ok      ars-nouveau
+ok      botania
+ok      apotheosis
+ok      passive-skill-tree
+ok      artifacts
+ok      curios
+ok      farmers-delight
+ok      supplementaries
+ok      macaws-bridges
+ok      macaws-doors
+ok      macaws-windows
+ok      macaws-furniture
+Loading modpack...
+Refreshing index... 100 % [=================================================] 0s
+[1A[JRefreshing index... 100 % [===============================================] done
+Index refreshed!
+mods in pack: 63
+failed: 3
