@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
-# Resolves pack/mods.txt into packwiz metadata. Safe to re-run: already-resolved
-# lines are skipped, failures are retried. Writes a readable report next to it.
-# A line may list alternatives separated by '|'; the first slug that resolves wins.
+# Resolves pack/mods.txt into packwiz metadata using EXACT Modrinth project slugs
+# (never a text search, which can silently pick the wrong mod). Safe to re-run:
+# already-resolved lines are skipped, failures are retried. Writes last-run.txt.
+# A line may list alternatives separated by '|'; the first slug that exists wins.
 set -u
 cd "$(dirname "$0")"
 
@@ -11,6 +12,7 @@ touch resolved.txt
 : > failed.txt
 
 say() { echo "$@" | tee -a "$REPORT"; }
+UA="MAX1NITY/mine-pack (github.com/MAX1NITY/mine-pack)"
 
 say "started: $(date -u +%FT%TZ)"
 
@@ -28,15 +30,21 @@ while IFS= read -r raw; do
   added=0
   for slug in "${candidates[@]}"; do
     slug="$(echo "$slug" | xargs)"
-    out="$(packwiz modrinth add "$slug" -y < /dev/null 2>&1)"
+    info="$(curl -fsS -A "$UA" "https://api.modrinth.com/v2/project/$slug" 2>/dev/null)" || {
+      say "miss    $slug (no project with that slug)"
+      continue
+    }
+    pid="$(echo "$info" | python3 -c 'import sys,json; print(json.load(sys.stdin)["id"])')"
+    title="$(echo "$info" | python3 -c 'import sys,json; print(json.load(sys.stdin)["title"])')"
+    out="$(packwiz modrinth add --project-id "$pid" -y < /dev/null 2>&1)"
     code=$?
     if [ $code -eq 0 ]; then
       echo "$line" >> resolved.txt
-      say "ok      $slug"
+      say "ok      $slug -> $title"
       added=1
       break
     else
-      say "miss    $slug: $(echo "$out" | grep -E 'Failed|no ' | head -1)"
+      say "miss    $slug -> $title: $(echo "$out" | grep -E 'Failed|no ' | head -1)"
     fi
   done
   if [ $added -eq 0 ]; then

@@ -33,7 +33,7 @@ explorers-compass
 natures-compass
 aether
 alexs-mobs
-lendercataclysm|l_enders-cataclysm|cataclysm
+lendercataclysm|l_enders-cataclysm|lenders-cataclysm|cataclysm
 mowzies-mobs
 yungs-api
 yungs-better-dungeons
@@ -63,7 +63,6 @@ irons_lib|irons-lib|irons-lib-forge
 ars-nouveau
 botania
 apotheosis
-passiveskilltree|passive-skill-tree-forge|the-passive-skill-tree
 artifacts
 curios
 
