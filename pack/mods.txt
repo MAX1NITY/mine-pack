@@ -1,0 +1,67 @@
+# One Modrinth project slug per line. '#' starts a comment.
+# Dependencies are added automatically. The pack workflow resolves these
+# for Minecraft 1.20.1 + Forge and records what worked in resolved.txt / failed.txt.
+
+# --- Performance ---
+embeddium
+oculus
+modernfix
+ferrite-core
+entityculling
+
+# --- Quality of life ---
+jei
+jade
+journeymap
+sophisticated-backpacks
+appleskin
+waystones
+
+# --- Pack glue ---
+kubejs
+ftb-quests-forge
+
+# --- World and exploration ---
+terralith
+biomes-o-plenty
+the-twilight-forest
+aether
+alexs-mobs
+lendercataclysm
+mowzies-mobs
+yungs-api
+yungs-better-dungeons
+yungs-better-mineshafts
+yungs-better-strongholds
+yungs-better-nether-fortresses
+yungs-better-desert-temples
+yungs-better-jungle-temples
+yungs-better-ocean-monuments
+yungs-better-witch-huts
+
+# --- Combat ---
+epic-fight
+better-combat
+simply-swords
+
+# --- Tech ---
+create
+mekanism
+ae2
+
+# --- Magic and RPG ---
+irons-spells-n-spellbooks
+ars-nouveau
+botania
+apotheosis
+passive-skill-tree
+artifacts
+curios
+
+# --- Cozy and building ---
+farmers-delight
+supplementaries
+macaws-bridges
+macaws-doors
+macaws-windows
+macaws-furniture
