@@ -34,7 +34,6 @@ irons-spells-n-spellbooks
 ars-nouveau
 botania
 apotheosis
-passive-skill-tree
 artifacts
 curios
 farmers-delight

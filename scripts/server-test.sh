@@ -7,7 +7,7 @@ ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 SERVER="$ROOT/server-test"
 REPORT="$ROOT/reports/server-test.txt"
 MC=1.20.1
-FORGE=47.2.20
+FORGE=47.4.0
 mkdir -p "$SERVER" "$ROOT/reports"
 : > "$REPORT"
 rep() { echo "$@" | tee -a "$REPORT"; }

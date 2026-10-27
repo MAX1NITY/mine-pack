@@ -59,10 +59,11 @@ create-enchantment-industry
 
 # --- Magic and RPG ---
 irons-spells-n-spellbooks
+irons_lib|irons-lib|irons-lib-forge
 ars-nouveau
 botania
 apotheosis
-passive-skill-tree
+passiveskilltree|passive-skill-tree-forge|the-passive-skill-tree
 artifacts
 curios
 
@@ -73,6 +74,9 @@ macaws-bridges
 macaws-doors
 macaws-windows
 macaws-furniture
+
+# --- Libraries that Modrinth does not always auto-add ---
+kotlin-for-forge
 
 # --- Atmosphere ---
 sound-physics-remastered
