@@ -1,64 +1,68 @@
-packwiz: Error: unknown flag: --version
-started: 2026-10-27T22:40:59Z
-ok      embeddium
-ok      oculus
-ok      modernfix
-ok      ferrite-core
-ok      entityculling
-ok      jei
-ok      jade
-ok      journeymap
-ok      sophisticated-backpacks
-ok      appleskin
-ok      waystones
-ok      kubejs
-FAILED  ftb-quests-forge (exit 1)
-        Searching Modrinth...
-        Failed to add project: no projects found
-ok      terralith
-ok      biomes-o-plenty
-FAILED  the-twilight-forest (exit 1)
-        Searching Modrinth...
-        Failed to add project: failed to get latest version: no valid versions found
-        	Use the 'packwiz settings acceptable-versions' command to accept more game versions
-        	To use datapacks, add a datapack loader mod and specify the datapack-folder option with the folder this mod loads datapacks from
-ok      aether
-ok      alexs-mobs
-FAILED  lendercataclysm (exit 1)
-        Searching Modrinth...
-        Failed to add project: no projects found
-ok      mowzies-mobs
-ok      yungs-api
-ok      yungs-better-dungeons
-ok      yungs-better-mineshafts
-ok      yungs-better-strongholds
-ok      yungs-better-nether-fortresses
-ok      yungs-better-desert-temples
-ok      yungs-better-jungle-temples
-ok      yungs-better-ocean-monuments
-ok      yungs-better-witch-huts
-ok      epic-fight
-ok      better-combat
-ok      simply-swords
-ok      create
-ok      mekanism
-ok      ae2
-ok      irons-spells-n-spellbooks
-ok      ars-nouveau
-ok      botania
-ok      apotheosis
-ok      passive-skill-tree
-ok      artifacts
-ok      curios
-ok      farmers-delight
-ok      supplementaries
-ok      macaws-bridges
-ok      macaws-doors
-ok      macaws-windows
-ok      macaws-furniture
+started: 2026-10-27T22:44:56Z
+skip    embeddium (already resolved)
+skip    oculus (already resolved)
+skip    modernfix (already resolved)
+skip    ferrite-core (already resolved)
+skip    entityculling (already resolved)
+skip    jei (already resolved)
+skip    jade (already resolved)
+skip    journeymap (already resolved)
+skip    sophisticated-backpacks (already resolved)
+skip    appleskin (already resolved)
+skip    waystones (already resolved)
+skip    kubejs (already resolved)
+miss    ftb-quests-forge: Failed to add project: no projects found
+ok      ftb-quests
+skip    terralith (already resolved)
+skip    biomes-o-plenty (already resolved)
+ok      blue-skies
+ok      alexs-caves
+ok      dungeons-and-taverns
+ok      when-dungeons-arise
+ok      explorers-compass
+ok      natures-compass
+skip    aether (already resolved)
+skip    alexs-mobs (already resolved)
+miss    lendercataclysm: Failed to add project: no projects found
+ok      l_enders-cataclysm
+skip    mowzies-mobs (already resolved)
+skip    yungs-api (already resolved)
+skip    yungs-better-dungeons (already resolved)
+skip    yungs-better-mineshafts (already resolved)
+skip    yungs-better-strongholds (already resolved)
+skip    yungs-better-nether-fortresses (already resolved)
+skip    yungs-better-desert-temples (already resolved)
+skip    yungs-better-jungle-temples (already resolved)
+skip    yungs-better-ocean-monuments (already resolved)
+skip    yungs-better-witch-huts (already resolved)
+skip    epic-fight (already resolved)
+skip    better-combat (already resolved)
+skip    simply-swords (already resolved)
+skip    create (already resolved)
+skip    mekanism (already resolved)
+skip    ae2 (already resolved)
+ok      createaddition
+ok      create-enchantment-industry
+skip    irons-spells-n-spellbooks (already resolved)
+skip    ars-nouveau (already resolved)
+skip    botania (already resolved)
+skip    apotheosis (already resolved)
+skip    passive-skill-tree (already resolved)
+skip    artifacts (already resolved)
+skip    curios (already resolved)
+skip    farmers-delight (already resolved)
+skip    supplementaries (already resolved)
+skip    macaws-bridges (already resolved)
+skip    macaws-doors (already resolved)
+skip    macaws-windows (already resolved)
+skip    macaws-furniture (already resolved)
+ok      sound-physics-remastered
+ok      mouse-tweaks
+ok      clumps
 Loading modpack...
 Refreshing index... 100 % [=================================================] 0s
 [1A[JRefreshing index... 100 % [===============================================] done
+[1A[JRefreshing index... 100 % [===============================================] done
 Index refreshed!
-mods in pack: 63
-failed: 3
+mods in pack: 79
+failed lines: 0

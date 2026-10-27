@@ -1,18 +1,6 @@
 hash-format = "sha256"
 
 [[files]]
-file = "failed.txt"
-hash = "224bc9abd0734800b5024d277356312cfad83799dcf4cd28151ce903559eae89"
-
-[[files]]
-file = "last-run.txt"
-hash = "5b031dac8708016b7bb84ee8b564e6acf4c0af9ca684014484d11e9c0b9b3fbf"
-
-[[files]]
-file = "mods.txt"
-hash = "3765d72467a0513e6590888fe2032f09a8f01200aa09c3169df68061ccc6199d"
-
-[[files]]
 file = "mods/ae2.pw.toml"
 hash = "4f94db9eeb714f81d02e125e2021e55c7ca6c6ef8423bf6488dd51ebdfdf6fc5"
 metafile = true
@@ -20,6 +8,11 @@ metafile = true
 [[files]]
 file = "mods/aether.pw.toml"
 hash = "1aaba088a650cc1499e1871cfa92f97e3d10a9d8c612fbd784b36c12382196de"
+metafile = true
+
+[[files]]
+file = "mods/alexs-caves.pw.toml"
+hash = "0cbc4b2c6b58b7a94f030ae84f18057e5dc78a17bad429f40b8884926a6ab233"
 metafile = true
 
 [[files]]
@@ -73,6 +66,11 @@ hash = "2bcea8e16d358942a8f8b8cf6e39cc303d90fac29b1b3ecb8033bd214d4afa0f"
 metafile = true
 
 [[files]]
+file = "mods/blue-skies.pw.toml"
+hash = "e0b611005c8d2142ca889e850c9f1450f45b1d30086aa8743579dde6ab1bd9af"
+metafile = true
+
+[[files]]
 file = "mods/botania.pw.toml"
 hash = "ff2aa5045d98d0303e288dd37a1613c6376d8cfe2c829219e6e7283fb86008bb"
 metafile = true
@@ -88,13 +86,38 @@ hash = "e3dd03e7fec88831974857e2cdded54dd5c5bdcaa3f6d6248c2800e82db4dd41"
 metafile = true
 
 [[files]]
+file = "mods/clumps.pw.toml"
+hash = "903352ffbd84d4b95fed905893f4715d9c3f88ec9fff6fb06f6e359e0b839dc3"
+metafile = true
+
+[[files]]
+file = "mods/create-dragons-plus.pw.toml"
+hash = "00f734d137e718d42297cc556042b80be84d08740273fb28bbe93b91959cc300"
+metafile = true
+
+[[files]]
+file = "mods/create-enchantment-industry.pw.toml"
+hash = "76422dff09360cb077eec56dd0340b664991191f78cfcf6da3d01bf344ee9f1a"
+metafile = true
+
+[[files]]
 file = "mods/create.pw.toml"
 hash = "fb5c251cf4997fa65ca043bab7c9ecbd02e108031584a3e26276b77d212de23c"
 metafile = true
 
 [[files]]
+file = "mods/createaddition.pw.toml"
+hash = "e6d1f36e9e0193fe410d136e0cda8a7f6dbbc809c0644f06a601bddf5b38a395"
+metafile = true
+
+[[files]]
 file = "mods/curios.pw.toml"
 hash = "9eefd607e0d54ec444e798ccdeede1a09a3939440bd1e11c11b84c07a5134be2"
+metafile = true
+
+[[files]]
+file = "mods/dungeons-and-taverns.pw.toml"
+hash = "a6af059766ea70358690d048898d19e493108e2e06a97542fac696fd5e03589a"
 metafile = true
 
 [[files]]
@@ -113,6 +136,11 @@ hash = "0f0e188338716923146300f28ce8772d6eb8b5260ebe38636a42f9137aa7cf0f"
 metafile = true
 
 [[files]]
+file = "mods/explorers-compass.pw.toml"
+hash = "8d11358dfd1f3591ee0ce8728d6a3234e1edef5db39c52fe68264ecf7684968d"
+metafile = true
+
+[[files]]
 file = "mods/farmers-delight.pw.toml"
 hash = "c83385838fbf5cdd40684e5f6d4b7bcc2126de4abca229a60b7063e57a5a4615"
 metafile = true
@@ -120,6 +148,11 @@ metafile = true
 [[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
+metafile = true
+
+[[files]]
+file = "mods/ftb-quests-freeze-fix.pw.toml"
+hash = "7ffd7057b5dd657fe639b108248b3fdb2f6f71a0ed2977f53637d3d5722a3ae5"
 metafile = true
 
 [[files]]
@@ -168,6 +201,16 @@ hash = "9ec37ad87c0c174bdafe7d52fc98f96b83aaef0ad42ae59e196655d3d784f31f"
 metafile = true
 
 [[files]]
+file = "mods/l_enders-cataclysm.pw.toml"
+hash = "dfdd246954f9bcfbff66668558b17ba5b3e75a12ba6031c441750a472670fbd8"
+metafile = true
+
+[[files]]
+file = "mods/lionfish-api.pw.toml"
+hash = "f3b6b7cd660a91a34a4e18010c9eaacaeb7ff306cadfee14431fa25a15b041ec"
+metafile = true
+
+[[files]]
 file = "mods/macaws-bridges.pw.toml"
 hash = "0261f8fb3b0880b572044ff084edceecd2c91f39ee71c477198313ac2a253f4d"
 metafile = true
@@ -208,8 +251,18 @@ hash = "a81c50d3302be28a25ef52d29243aae933baea850480b1fafbc7d51a166b9765"
 metafile = true
 
 [[files]]
+file = "mods/mouse-tweaks.pw.toml"
+hash = "679fa8f3b49b9ed3fbcb29d6ccdb99bce465faa01f9cec000464ac8d4fbe134f"
+metafile = true
+
+[[files]]
 file = "mods/mowzies-mobs.pw.toml"
 hash = "0e6b04ea03c95a193b564aee5c67b8912c52c1de61cd2bd43222c494e26bbbe9"
+metafile = true
+
+[[files]]
+file = "mods/natures-compass.pw.toml"
+hash = "8cad1023bbc6e5c13961de6248a88b91538f3ad315dfdbb40c969e25606d98eb"
 metafile = true
 
 [[files]]
@@ -263,6 +316,16 @@ hash = "f6266b08d299fe964f8dbbe835e12a591be52e51ecf6afe8915b6eca21d670c6"
 metafile = true
 
 [[files]]
+file = "mods/sound-physics-remastered.pw.toml"
+hash = "416bb6449da951ec1a04156348c502b9e47a947212becc173d277faaddaaaccd"
+metafile = true
+
+[[files]]
+file = "mods/structure-gel-api.pw.toml"
+hash = "0a1893b4abfd0e7243095240b329552c082dd3fa7874b43e9b43c94812875472"
+metafile = true
+
+[[files]]
 file = "mods/supplementaries.pw.toml"
 hash = "b3c68ce85c6cbdf37a00e39d18ea0f30ef7f69ee414151615adc2aa793661b81"
 metafile = true
@@ -280,6 +343,11 @@ metafile = true
 [[files]]
 file = "mods/waystones.pw.toml"
 hash = "1dc6ca31c7b6912c494caa2a4f5f9f7250af50fbeb9ce9141ae9b741f9861987"
+metafile = true
+
+[[files]]
+file = "mods/when-dungeons-arise.pw.toml"
+hash = "1901cefc095dfaeafb78fc34610febb36f9e4a0ae32f7b96f484f0dacc94c681"
 metafile = true
 
 [[files]]
@@ -326,11 +394,3 @@ metafile = true
 file = "mods/yungs-better-witch-huts.pw.toml"
 hash = "35e69603e8b8b3c999f2054d34949578088c40d0042e13678fd1f85d793add34"
 metafile = true
-
-[[files]]
-file = "resolved.txt"
-hash = "a6b365428725342c6f84906ebba044db06c9cc6012b7a4b7988a0e74f5f76da6"
-
-[[files]]
-file = "update-pack.sh"
-hash = "dd2a429154e9719bb8f610a53b770edec57542dd5d1c88cbbe0e0f4cf23aac8c"

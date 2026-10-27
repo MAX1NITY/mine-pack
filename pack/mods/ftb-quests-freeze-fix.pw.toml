@@ -1,0 +1,13 @@
+name = "FTB Quests Freeze Fix"
+filename = "ftbquestsfreezefix-forge-1.0.0-1.20.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/6Z1o0Fxu/versions/Tu2iZN6X/ftbquestsfreezefix-forge-1.0.0-1.20.1.jar"
+hash-format = "sha512"
+hash = "9fef4da4bf3aa494a87b2dc81a490e8191653f51c97bbb77073a3ed1373230d681a457d9b56513f6d29754418883dd74c2618a1099f458841d77962bee4fcfee"
+
+[update]
+[update.modrinth]
+mod-id = "6Z1o0Fxu"
+version = "Tu2iZN6X"

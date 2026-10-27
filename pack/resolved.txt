@@ -43,3 +43,16 @@ macaws-bridges
 macaws-doors
 macaws-windows
 macaws-furniture
+ftb-quests-forge|ftb-quests|heracles
+blue-skies
+alexs-caves
+dungeons-and-taverns
+when-dungeons-arise
+explorers-compass
+natures-compass
+lendercataclysm|l_enders-cataclysm|cataclysm
+createaddition
+create-enchantment-industry
+sound-physics-remastered
+mouse-tweaks
+clumps
