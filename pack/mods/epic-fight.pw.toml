@@ -1,0 +1,13 @@
+name = "Epic Fight"
+filename = "epic-fight-20.15.1-mc1.20.1-forge.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/vu3NZ5Ma/versions/3YRxef6J/epic-fight-20.15.1-mc1.20.1-forge.jar"
+hash-format = "sha512"
+hash = "4c0e5cb5aaf5fe9702b78470447975abcc02f6f7da4f988c42671f8853bb9847d71629503182870927261523895f24e3a5ebeaa6201706961081c7010d272d83"
+
+[update]
+[update.modrinth]
+mod-id = "vu3NZ5Ma"
+version = "3YRxef6J"

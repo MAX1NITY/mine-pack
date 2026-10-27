@@ -151,11 +151,6 @@ hash = "902bac905b93271f02bd0951a22bac06a3da24f5c237fcaeb469e14a7679e508"
 metafile = true
 
 [[files]]
-file = "mods/ftb-quests-freeze-fix.pw.toml"
-hash = "7ffd7057b5dd657fe639b108248b3fdb2f6f71a0ed2977f53637d3d5722a3ae5"
-metafile = true
-
-[[files]]
 file = "mods/fzzy-config.pw.toml"
 hash = "dd18fd6bae21df582b4fffc3dd18a4972e783a859c0295e5ea8582a6617dceb5"
 metafile = true
@@ -308,11 +303,6 @@ metafile = true
 [[files]]
 file = "mods/simply-tooltips.pw.toml"
 hash = "58b6c58f8c7b8886048fd2028079d4a58162b4ca9bdc997882d2f8ae1be6aabb"
-metafile = true
-
-[[files]]
-file = "mods/skilltreemkp.pw.toml"
-hash = "8c6e056b3d687a6dc202ebf0f57046bc04babcfb36b21a14b509f5100ce10bff"
 metafile = true
 
 [[files]]
