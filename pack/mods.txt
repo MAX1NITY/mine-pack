@@ -20,7 +20,6 @@ waystones
 
 # --- Pack glue ---
 kubejs
-ftb-quests-forge|ftb-quests|heracles
 
 # --- World and exploration ---
 terralith
