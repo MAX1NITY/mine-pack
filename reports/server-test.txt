@@ -1,63 +1,40 @@
-server test started: 2026-10-27T22:49:29Z
+server test started: 2026-10-27T22:54:01Z
 added custom mod: ascension_core-0.1.0.jar
-jars in server mods folder: 74
-launch args: ./libraries/net/minecraftforge/forge/1.20.1-47.2.20/unix_args.txt
+jars in server mods folder: 76
+launch args: ./libraries/net/minecraftforge/forge/1.20.1-47.4.0/unix_args.txt
 
 RESULT: FAIL (server did not finish starting)
 --- startup time line ---
 --- errors and warnings worth reading (first 80) ---
-[22:50:06] [main/ERROR] [ne.mi.fm.lo.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
-[22:50:10] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
-[22:50:10] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrChestBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrChestBlockEntity)
-[22:50:10] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrBarrelBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrBarrelBlockEntity)
-[22:50:10] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrShulkerBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrShulkerBlockEntity)
-[22:50:10] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/entity/LootrChestMinecartEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.entity.LootrChestMinecartEntity)
-[22:50:14] [main/FATAL] [ne.mi.fm.ModLoader/CORE]: Error during pre-loading phase
-net.minecraftforge.fml.ModLoadingException: Mod §eglitchcore§r requires §6forge§r §o47.3.0 or above§r
-	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.2.20.jar%23250!/:?] {}
-[22:50:15] [main/FATAL] [ne.mi.se.lo.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2026-10-27_22.50.15-fml.txt
+[22:54:40] [main/ERROR] [ne.mi.fm.lo.ModSorter/LOADING]: Missing or unsupported mandatory dependencies:
+[22:54:46] [main/FATAL] [ne.mi.fm.ModLoader/CORE]: Error during pre-loading phase
+net.minecraftforge.fml.ModLoadingException: Mod §eskilltreemkp§r requires §6skilltree§r §o0 or above§r
+	at net.minecraftforge.fml.ModLoadingException.lambda$fromEarlyException$0(ModLoadingException.java:50) ~[fmlcore-1.20.1-47.4.0.jar%23254!/:?] {}
+[22:54:46] [main/FATAL] [ne.mi.se.lo.ServerModLoader/]: Crash report saved to ./crash-reports/crash-2026-10-27_22.54.46-fml.txt
 java.lang.Exception: Mod Loading has failed
-	Failure message: Mod glitchcore requires forge 47.3.0 or above
-	Exception message: MISSING EXCEPTION MESSAGE
-	Failure message: Mod epicfight requires forge 47.4.0 or above
-	Exception message: MISSING EXCEPTION MESSAGE
-	Failure message: Mod irons_spellbooks requires forge 47.4.0 or above
-	Exception message: MISSING EXCEPTION MESSAGE
-	Failure message: Mod irons_spellbooks requires irons_lib 1.20.1-2 or above, and below 1.20.1-3
-	Exception message: MISSING EXCEPTION MESSAGE
 	Failure message: Mod skilltreemkp requires skilltree 0 or above
 	Exception message: MISSING EXCEPTION MESSAGE
-	Failure message: Mod biomesoplenty requires forge 47.3.0 or above
-	Exception message: MISSING EXCEPTION MESSAGE
-	Failure message: Mod fzzy_config requires kotlinforforge between 4.11.0 and 4.99.0 (inclusive)
-	Exception message: MISSING EXCEPTION MESSAGE
-		forge-1.20.1-47.2.20-universal.jar                |Forge                         |forge                         |47.2.20             |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90[22:50:15] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+		forge-1.20.1-47.4.0-universal.jar                 |Forge                         |forge                         |47.4.0              |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90[22:54:46] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Mod §eglitchcore§r requires §6forge§r §o47.3.0 or above§r
-	Mod §eepicfight§r requires §6forge§r §o47.4.0 or above§r
-	Mod §eirons_spellbooks§r requires §6forge§r §o47.4.0 or above§r
-	Mod §eirons_spellbooks§r requires §6irons_lib§r §o1.20.1-2 or above, and below 1.20.1-3§r
 	Mod §eskilltreemkp§r requires §6skilltree§r §o0 or above§r
-	Mod §ebiomesoplenty§r requires §6forge§r §o47.3.0 or above§r
-	Mod §efzzy_config§r requires §6kotlinforforge§r §obetween 4.11.0 and 4.99.0 (inclusive)§r
---- crash-2026-10-27_22.50.15-fml.txt (first 60 lines) ---
+--- crash-2026-10-27_22.54.46-fml.txt (first 60 lines) ---
 ---- Minecraft Crash Report ----
-// Hi. I'm Minecraft, and I'm a crashaholic.
+// I'm sorry, Dave.
 
-Time: 2026-10-27 22:50:15
+Time: 2026-10-27 22:54:46
 Description: Mod loading error has occurred
 
 java.lang.Exception: Mod Loading has failed
-	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?] {re:classloading}
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:60) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?] {re:classloading}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
@@ -75,65 +52,65 @@ A detailed walkthrough of the error, its code path and all known details is as f
 Thread: main
 Suspected Mods: NONE
 Stacktrace:
-	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
--- MOD glitchcore --
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
+-- MOD skilltreemkp --
 Details:
-	Mod File: /home/runner/work/mine-pack/mine-pack/server-test/mods/GlitchCore-forge-1.20.1-0.0.1.1.jar
-	Failure message: Mod glitchcore requires forge 47.3.0 or above
-		Currently, forge is 47.2.20
-	Mod Version: 0.0.1.1
-	Mod Issue URL: https://github.com/Glitchfiend/GlitchCore/issues
+	Mod File: /home/runner/work/mine-pack/mine-pack/server-test/mods/PassiveSkillTreeMKP-1.19.2+1.20.1-3.0.0.jar
+	Failure message: Mod skilltreemkp requires skilltree 0 or above
+		Currently, skilltree is not installed
+	Mod Version: 3.0.0
+	Mod Issue URL: NOT PROVIDED
 	Exception message: MISSING EXCEPTION MESSAGE
 Stacktrace:
-	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
+	at net.minecraftforge.logging.CrashReportExtender.lambda$dumpModLoadingCrashReport$7(CrashReportExtender.java:63) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
 	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?] {}
-	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:61) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?] {re:classloading}
+	at net.minecraftforge.logging.CrashReportExtender.dumpModLoadingCrashReport(CrashReportExtender.java:61) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:37) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?] {re:classloading}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.Launcher.run(Launcher.java:108) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 --- last 40 log lines ---
+		mixin-0.8.5.jar mixin PLUGINSERVICE 
+		eventbus-6.0.5.jar eventbus PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar slf4jfixer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar object_holder_definalize PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtime_enum_extender PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar capability_token_subclass PLUGINSERVICE 
+		accesstransformers-8.0.4.jar accesstransformer PLUGINSERVICE 
+		fmlloader-1.20.1-47.4.0.jar runtimedistcleaner PLUGINSERVICE 
+		modlauncher-10.0.9.jar mixin TRANSFORMATIONSERVICE 
+		modlauncher-10.0.9.jar fml TRANSFORMATIONSERVICE 
+	FML Language Providers: 
 		minecraft@1.0
-		lowcodefml@null
+		kotlinforforge@4.12.0
 		javafml@null
+		lowcodefml@null
 	Mod List: 
 		server-1.20.1-20230612.114412-srg.jar             |Minecraft                     |minecraft                     |1.20.1              |NONE      |Manifest: NOSIGNATURE
-		forge-1.20.1-47.2.20-universal.jar                |Forge                         |forge                         |47.2.20             |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90[22:50:15] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
+		forge-1.20.1-47.4.0-universal.jar                 |Forge                         |forge                         |47.4.0              |NONE      |Manifest: 84:ce:76:e8:45:35:e4:0e:63:86:df:47:59:80:0f:67:6c:c1:5f:6e:5f:4d:b3:54:47:1a:9f:7f:ed:5e:f2:90[22:54:46] [main/ERROR] [minecraft/Main]: Failed to start the minecraft server
 net.minecraftforge.fml.LoadingFailedException: Loading errors encountered: [
-	Mod §eglitchcore§r requires §6forge§r §o47.3.0 or above§r
-§7Currently, §6forge§r§7 is §o47.2.20,
-	Mod §eepicfight§r requires §6forge§r §o47.4.0 or above§r
-§7Currently, §6forge§r§7 is §o47.2.20,
-	Mod §eirons_spellbooks§r requires §6forge§r §o47.4.0 or above§r
-§7Currently, §6forge§r§7 is §o47.2.20,
-	Mod §eirons_spellbooks§r requires §6irons_lib§r §o1.20.1-2 or above, and below 1.20.1-3§r
-§7Currently, §6irons_lib§r§7 is §o§nnot installed,
 	Mod §eskilltreemkp§r requires §6skilltree§r §o0 or above§r
-§7Currently, §6skilltree§r§7 is §o§nnot installed,
-	Mod §ebiomesoplenty§r requires §6forge§r §o47.3.0 or above§r
-§7Currently, §6forge§r§7 is §o47.2.20,
-	Mod §efzzy_config§r requires §6kotlinforforge§r §obetween 4.11.0 and 4.99.0 (inclusive)§r
-§7Currently, §6kotlinforforge§r§7 is §o§nnot installed
+§7Currently, §6skilltree§r§7 is §o§nnot installed
 ]
-	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.2.20.jar%23250!/:?] {}
-	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.2.20-universal.jar%23254!/:?] {re:classloading}
-	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23249!/:?] {re:classloading}
+	at net.minecraftforge.fml.ModLoader.gatherAndInitializeMods(ModLoader.java:149) ~[fmlcore-1.20.1-47.4.0.jar%23254!/:?] {}
+	at net.minecraftforge.server.loading.ServerModLoader.load(ServerModLoader.java:30) ~[forge-1.20.1-47.4.0-universal.jar%23258!/:?] {re:classloading}
+	at net.minecraft.server.Main.main(Main.java:125) ~[server-1.20.1-20230612.114412-srg.jar%23253!/:?] {re:classloading}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:?] {}
 	at jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77) ~[?:?] {}
 	at jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:?] {}
 	at java.lang.reflect.Method.invoke(Method.java:569) ~[?:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
-	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.2.20.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.runTarget(CommonLaunchHandler.java:111) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonLaunchHandler.serverService(CommonLaunchHandler.java:103) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$makeService$0(CommonServerLaunchHandler.java:27) ~[fmlloader-1.20.1-47.4.0.jar%2369!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) ~[modlauncher-10.0.9.jar%2355!/:?] {}
 	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) ~[modlauncher-10.0.9.jar%2355!/:?] {}
