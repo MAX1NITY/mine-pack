@@ -1,0 +1,6 @@
+mods.txt
+update-pack.sh
+resolved.txt
+failed.txt
+last-run.txt
+*.mrpack

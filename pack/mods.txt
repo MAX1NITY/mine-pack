@@ -1,4 +1,5 @@
 # One Modrinth project slug per line. '#' starts a comment.
+# 'a|b|c' means: try slug a, and if it is not found try b, then c.
 # Dependencies are added automatically. The pack workflow resolves these
 # for Minecraft 1.20.1 + Forge and records what worked in resolved.txt / failed.txt.
 
@@ -19,15 +20,20 @@ waystones
 
 # --- Pack glue ---
 kubejs
-ftb-quests-forge
+ftb-quests-forge|ftb-quests|heracles
 
 # --- World and exploration ---
 terralith
 biomes-o-plenty
-the-twilight-forest
+blue-skies
+alexs-caves
+dungeons-and-taverns
+when-dungeons-arise
+explorers-compass
+natures-compass
 aether
 alexs-mobs
-lendercataclysm
+lendercataclysm|l_enders-cataclysm|cataclysm
 mowzies-mobs
 yungs-api
 yungs-better-dungeons
@@ -48,6 +54,8 @@ simply-swords
 create
 mekanism
 ae2
+createaddition
+create-enchantment-industry
 
 # --- Magic and RPG ---
 irons-spells-n-spellbooks
@@ -65,3 +73,8 @@ macaws-bridges
 macaws-doors
 macaws-windows
 macaws-furniture
+
+# --- Atmosphere ---
+sound-physics-remastered
+mouse-tweaks
+clumps

@@ -1,4 +1,4 @@
-name: Build pack
+name: Build and test pack
 
 on:
   push:
@@ -6,11 +6,17 @@ on:
     paths:
       - 'pack/mods.txt'
       - 'pack/update-pack.sh'
+      - 'scripts/**'
+      - 'mods/**'
       - '.github/workflows/pack.yml'
   workflow_dispatch:
 
 permissions:
   contents: write
+
+concurrency:
+  group: pack
+  cancel-in-progress: false
 
 jobs:
   pack:
@@ -42,16 +48,74 @@ jobs:
           git push || true
 
       - name: Export Modrinth pack
-        if: always()
         run: |
           export PATH="$PATH:$(go env GOPATH)/bin"
           cd pack
-          packwiz modrinth export || echo "export failed"
+          packwiz modrinth export
           ls -la
 
       - uses: actions/upload-artifact@v4
-        if: always()
         with:
           name: mine-pack-mrpack
           path: pack/*.mrpack
           if-no-files-found: warn
+
+  server-test:
+    needs: pack
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version: 'stable'
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - uses: gradle/actions/setup-gradle@v4
+        with:
+          gradle-version: '8.1.1'
+
+      - name: Build custom mods
+        run: |
+          for dir in mods/*/; do
+            (cd "$dir" && gradle build --stacktrace)
+          done
+
+      - name: Boot a Forge server with the whole pack
+        id: boot
+        run: |
+          export PATH="$PATH:$(go env GOPATH)/bin"
+          bash scripts/server-test.sh
+        continue-on-error: true
+
+      - name: Commit test report
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add reports
+          git diff --cached --quiet || git commit -m "Update server test report"
+          git pull --rebase origin main || true
+          git push || true
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: server-test-logs
+          path: |
+            server-test/server.log
+            server-test/crash-reports
+          if-no-files-found: ignore
+
+      - name: Fail if the server did not start
+        if: steps.boot.outcome == 'failure'
+        run: exit 1
