@@ -1,72 +1,66 @@
-started: 2026-10-27T22:56:23Z
-ok      embeddium -> Embeddium
-ok      oculus -> Oculus
-ok      modernfix -> ModernFix
-ok      ferrite-core -> FerriteCore
-ok      entityculling -> Entity Culling
-ok      jei -> Just Enough Items (JEI)
-ok      jade -> Jade 🔍
-ok      journeymap -> JourneyMap
-ok      sophisticated-backpacks -> Sophisticated Backpacks
-ok      appleskin -> AppleSkin
-ok      waystones -> Waystones
-ok      kubejs -> KubeJS
-miss    ftb-quests-forge (no project with that slug)
-miss    ftb-quests (no project with that slug)
-miss    heracles (no project with that slug)
-FAILED  ftb-quests-forge|ftb-quests|heracles
-ok      terralith -> Terralith
-ok      biomes-o-plenty -> Biomes O' Plenty
-ok      blue-skies -> Blue Skies
-ok      alexs-caves -> Alex's Caves
-ok      dungeons-and-taverns -> Dungeons and Taverns
-ok      when-dungeons-arise -> When Dungeons Arise
-ok      explorers-compass -> Explorer's Compass
-ok      natures-compass -> Nature's Compass
-ok      aether -> The Aether
-ok      alexs-mobs -> Alex's Mobs
-miss    lendercataclysm (no project with that slug)
-ok      l_enders-cataclysm -> L_Ender's Cataclysm
-ok      mowzies-mobs -> Mowzie's Mobs
-ok      yungs-api -> YUNG's API
-ok      yungs-better-dungeons -> YUNG's Better Dungeons
-ok      yungs-better-mineshafts -> YUNG's Better Mineshafts
-ok      yungs-better-strongholds -> YUNG's Better Strongholds
-ok      yungs-better-nether-fortresses -> YUNG's Better Nether Fortresses
-ok      yungs-better-desert-temples -> YUNG's Better Desert Temples
-ok      yungs-better-jungle-temples -> YUNG's Better Jungle Temples
-ok      yungs-better-ocean-monuments -> YUNG's Better Ocean Monuments
-ok      yungs-better-witch-huts -> YUNG's Better Witch Huts
-ok      epic-fight -> Epic Fight
-ok      better-combat -> Better Combat
-ok      simply-swords -> Simply Swords
-ok      create -> Create
-ok      mekanism -> Mekanism
-ok      ae2 -> Applied Energistics 2
-ok      createaddition -> Create Crafts & Additions
-ok      create-enchantment-industry -> Create: Enchantment Industry
-ok      irons-spells-n-spellbooks -> Iron's Spells 'n Spellbooks
-miss    irons_lib (no project with that slug)
-ok      irons-lib -> Iron's Lib
-ok      ars-nouveau -> Ars Nouveau
-ok      botania -> Botania
-ok      apotheosis -> Apotheosis
-ok      artifacts -> Artifacts
-ok      curios -> Curios API
-ok      farmers-delight -> Farmer's Delight
-ok      supplementaries -> Supplementaries
-ok      macaws-bridges -> Macaw's Bridges
-ok      macaws-doors -> Macaw's Doors
-ok      macaws-windows -> Macaw's Windows
-ok      macaws-furniture -> Macaw's Furniture
-ok      kotlin-for-forge -> Kotlin for Forge
-ok      sound-physics-remastered -> Sound Physics Remastered
-ok      mouse-tweaks -> Mouse Tweaks
-ok      clumps -> Clumps
+started: 2026-10-27T23:03:10Z
+skip    embeddium (already resolved)
+skip    oculus (already resolved)
+skip    modernfix (already resolved)
+skip    ferrite-core (already resolved)
+skip    entityculling (already resolved)
+skip    jei (already resolved)
+skip    jade (already resolved)
+skip    journeymap (already resolved)
+skip    sophisticated-backpacks (already resolved)
+skip    appleskin (already resolved)
+skip    waystones (already resolved)
+skip    kubejs (already resolved)
+skip    terralith (already resolved)
+skip    biomes-o-plenty (already resolved)
+skip    blue-skies (already resolved)
+skip    alexs-caves (already resolved)
+skip    dungeons-and-taverns (already resolved)
+skip    when-dungeons-arise (already resolved)
+skip    explorers-compass (already resolved)
+skip    natures-compass (already resolved)
+skip    aether (already resolved)
+skip    alexs-mobs (already resolved)
+skip    lendercataclysm|l_enders-cataclysm|lenders-cataclysm|cataclysm (already resolved)
+skip    mowzies-mobs (already resolved)
+skip    yungs-api (already resolved)
+skip    yungs-better-dungeons (already resolved)
+skip    yungs-better-mineshafts (already resolved)
+skip    yungs-better-strongholds (already resolved)
+skip    yungs-better-nether-fortresses (already resolved)
+skip    yungs-better-desert-temples (already resolved)
+skip    yungs-better-jungle-temples (already resolved)
+skip    yungs-better-ocean-monuments (already resolved)
+skip    yungs-better-witch-huts (already resolved)
+skip    epic-fight (already resolved)
+skip    better-combat (already resolved)
+skip    simply-swords (already resolved)
+skip    create (already resolved)
+skip    mekanism (already resolved)
+skip    ae2 (already resolved)
+skip    createaddition (already resolved)
+skip    create-enchantment-industry (already resolved)
+skip    irons-spells-n-spellbooks (already resolved)
+skip    irons_lib|irons-lib|irons-lib-forge (already resolved)
+skip    ars-nouveau (already resolved)
+skip    botania (already resolved)
+skip    apotheosis (already resolved)
+skip    artifacts (already resolved)
+skip    curios (already resolved)
+skip    farmers-delight (already resolved)
+skip    supplementaries (already resolved)
+skip    macaws-bridges (already resolved)
+skip    macaws-doors (already resolved)
+skip    macaws-windows (already resolved)
+skip    macaws-furniture (already resolved)
+skip    kotlin-for-forge (already resolved)
+skip    sound-physics-remastered (already resolved)
+skip    mouse-tweaks (already resolved)
+skip    clumps (already resolved)
 Loading modpack...
 Refreshing index... 100 % [=================================================] 0s
 [1A[JRefreshing index... 100 % [===============================================] done
 [1A[JRefreshing index... 100 % [===============================================] done
 Index refreshed!
 mods in pack: 79
-failed lines: 1
+failed lines: 0
