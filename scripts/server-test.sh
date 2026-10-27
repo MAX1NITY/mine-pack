@@ -42,8 +42,17 @@ for jar in "$ROOT"/mods/*/build/libs/*.jar; do
 done
 rep "jars in server mods folder: $(ls mods/*.jar 2>/dev/null | wc -l)"
 
+ARGS_FILE="$(find . -name unix_args.txt -path '*forge*' 2>/dev/null | head -1)"
+if [ -z "$ARGS_FILE" ]; then
+  rep "--- install.log (last 40 lines) ---"
+  tail -40 install.log >> "$REPORT"
+  rep "--- server folder ---"
+  ls -la >> "$REPORT"
+  fail "Forge launch arguments file not found after install"
+fi
+rep "launch args: $ARGS_FILE"
 mkfifo input
-java @user_jvm_args.txt "@libs/net/minecraftforge/forge/$MC-$FORGE/unix_args.txt" nogui \
+java @user_jvm_args.txt "@$ARGS_FILE" nogui \
   < input > server.log 2>&1 &
 SPID=$!
 exec 3> input
