@@ -1,4 +1,4 @@
-started: 2026-10-27T22:44:56Z
+started: 2026-10-27T22:47:55Z
 skip    embeddium (already resolved)
 skip    oculus (already resolved)
 skip    modernfix (already resolved)
@@ -11,20 +11,18 @@ skip    sophisticated-backpacks (already resolved)
 skip    appleskin (already resolved)
 skip    waystones (already resolved)
 skip    kubejs (already resolved)
-miss    ftb-quests-forge: Failed to add project: no projects found
-ok      ftb-quests
+skip    ftb-quests-forge|ftb-quests|heracles (already resolved)
 skip    terralith (already resolved)
 skip    biomes-o-plenty (already resolved)
-ok      blue-skies
-ok      alexs-caves
-ok      dungeons-and-taverns
-ok      when-dungeons-arise
-ok      explorers-compass
-ok      natures-compass
+skip    blue-skies (already resolved)
+skip    alexs-caves (already resolved)
+skip    dungeons-and-taverns (already resolved)
+skip    when-dungeons-arise (already resolved)
+skip    explorers-compass (already resolved)
+skip    natures-compass (already resolved)
 skip    aether (already resolved)
 skip    alexs-mobs (already resolved)
-miss    lendercataclysm: Failed to add project: no projects found
-ok      l_enders-cataclysm
+skip    lendercataclysm|l_enders-cataclysm|cataclysm (already resolved)
 skip    mowzies-mobs (already resolved)
 skip    yungs-api (already resolved)
 skip    yungs-better-dungeons (already resolved)
@@ -41,8 +39,8 @@ skip    simply-swords (already resolved)
 skip    create (already resolved)
 skip    mekanism (already resolved)
 skip    ae2 (already resolved)
-ok      createaddition
-ok      create-enchantment-industry
+skip    createaddition (already resolved)
+skip    create-enchantment-industry (already resolved)
 skip    irons-spells-n-spellbooks (already resolved)
 skip    ars-nouveau (already resolved)
 skip    botania (already resolved)
@@ -56,9 +54,9 @@ skip    macaws-bridges (already resolved)
 skip    macaws-doors (already resolved)
 skip    macaws-windows (already resolved)
 skip    macaws-furniture (already resolved)
-ok      sound-physics-remastered
-ok      mouse-tweaks
-ok      clumps
+skip    sound-physics-remastered (already resolved)
+skip    mouse-tweaks (already resolved)
+skip    clumps (already resolved)
 Loading modpack...
 Refreshing index... 100 % [=================================================] 0s
 [1A[JRefreshing index... 100 % [===============================================] done
