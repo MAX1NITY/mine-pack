@@ -176,6 +176,11 @@ hash = "7cbc557e23729a2ab1a0dfa8832359edb640a9c4b2f1919e7c43cd5c7ccfdf3c"
 metafile = true
 
 [[files]]
+file = "mods/irons-lib.pw.toml"
+hash = "561b47425324508d1e3df7e1632fbb163513390d83919baba4d2a6d863ec7137"
+metafile = true
+
+[[files]]
 file = "mods/irons-spells-n-spellbooks.pw.toml"
 hash = "e2337a3930d3dfb07c051ff0000b2ebd8d4638e17f091b7ad2c786bf0b25d095"
 metafile = true
@@ -193,6 +198,11 @@ metafile = true
 [[files]]
 file = "mods/journeymap.pw.toml"
 hash = "71146e24bb1192ae23ba5b27dd2905a43cce93161b0a58f762cd20b81fe0fb35"
+metafile = true
+
+[[files]]
+file = "mods/kotlin-for-forge.pw.toml"
+hash = "70a4ecd9d0c04ad20aeb976c1ee28933ce48a0a1f43df42deafaeb2ad7235297"
 metafile = true
 
 [[files]]

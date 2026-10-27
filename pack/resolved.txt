@@ -55,3 +55,6 @@ create-enchantment-industry
 sound-physics-remastered
 mouse-tweaks
 clumps
+irons_lib|irons-lib|irons-lib-forge
+passiveskilltree|passive-skill-tree-forge|the-passive-skill-tree
+kotlin-for-forge

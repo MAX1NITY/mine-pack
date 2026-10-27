@@ -1,0 +1,13 @@
+name = "Passive Skill Tree Mob Kill Points"
+filename = "PassiveSkillTreeMKP-1.19.2+1.20.1-3.0.0.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/jqbl72yn/versions/iASbybtY/PassiveSkillTreeMKP-1.19.2%2B1.20.1-3.0.0.jar"
+hash-format = "sha512"
+hash = "f1149a77e8e91a11b36a897283ee8e9adc659111112334bbfd80b8945bb9c7c529536d242bd8633e03b8b657fc8b26494a4c98d1ea975258cf66af33b1d3fd7b"
+
+[update]
+[update.modrinth]
+mod-id = "jqbl72yn"
+version = "iASbybtY"
