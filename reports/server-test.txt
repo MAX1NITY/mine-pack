@@ -1,0 +1,9 @@
+server test started: 2026-10-27T22:46:05Z
+added custom mod: ascension_core-0.1.0.jar
+jars in server mods folder: 74
+
+RESULT: FAIL (server did not finish starting)
+--- startup time line ---
+--- errors and warnings worth reading (first 80) ---
+--- last 40 log lines ---
+Error: could not open `libs/net/minecraftforge/forge/1.20.1-47.2.20/unix_args.txt'
