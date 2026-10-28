@@ -1,68 +1,70 @@
-server test started: 2026-10-27T23:05:46Z
+server test started: 2026-10-28T00:24:11Z
 added custom mod: ascension_core-0.1.0.jar
 jars in server mods folder: 75
 launch args: ./libraries/net/minecraftforge/forge/1.20.1-47.4.0/unix_args.txt
 
 RESULT: PASS (server reached 'Done')
 --- startup time line ---
-[23:07:59] [Server thread/INFO] [minecraft/DedicatedServer]: Done (57.634s)! For help, type "help"
+[00:26:13] [Server thread/INFO] [minecraft/DedicatedServer]: Done (53.873s)! For help, type "help"
 --- errors and warnings worth reading (first 80) ---
-[23:06:29] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
-[23:06:30] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrChestBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrChestBlockEntity)
-[23:06:30] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrBarrelBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrBarrelBlockEntity)
-[23:06:30] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrShulkerBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrShulkerBlockEntity)
-[23:06:30] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/entity/LootrChestMinecartEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.entity.LootrChestMinecartEntity)
-[23:06:44] [modloading-worker-0/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[23:06:44] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.rhino.JavaMembers:getDeclaredMethodsSafe:836]: [Rhino] Failed to get declared methods for yesman.epicfight.world.capabilities.EpicFightCapabilities: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[23:06:52] [main/ERROR] [minecraft/Settings]: Failed to load properties from file: server.properties
+[00:24:53] [main/WARN] [mixin/]: Error loading class: org/violetmoon/quark/content/tweaks/module/GoldToolsHaveFortuneModule (java.lang.ClassNotFoundException: org.violetmoon.quark.content.tweaks.module.GoldToolsHaveFortuneModule)
+[00:24:54] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrChestBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrChestBlockEntity)
+[00:24:54] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrBarrelBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrBarrelBlockEntity)
+[00:24:54] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/block/entities/LootrShulkerBlockEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.block.entities.LootrShulkerBlockEntity)
+[00:24:54] [main/WARN] [mixin/]: Error loading class: noobanidus/mods/lootr/entity/LootrChestMinecartEntity (java.lang.ClassNotFoundException: noobanidus.mods.lootr.entity.LootrChestMinecartEntity)
+[00:25:04] [modloading-worker-0/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[00:25:04] [modloading-worker-0/INFO] [STDERR/]: [dev.latvian.mods.rhino.JavaMembers:getDeclaredMethodsSafe:836]: [Rhino] Failed to get declared methods for yesman.epicfight.world.capabilities.EpicFightCapabilities: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[00:25:10] [main/ERROR] [minecraft/Settings]: Failed to load properties from file: server.properties
 java.nio.file.NoSuchFileException: server.properties
 	at sun.nio.fs.UnixException.translateToIOException(UnixException.java:92) ~[?:?] {}
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:106) ~[?:?] {}
 	at sun.nio.fs.UnixException.rethrowAsIOException(UnixException.java:111) ~[?:?] {}
-[23:06:54] [main/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[23:06:54] [main/INFO] [STDERR/]: [dev.latvian.mods.rhino.JavaMembers:getDeclaredMethodsSafe:836]: [Rhino] Failed to get declared methods for yesman.epicfight.world.capabilities.EpicFightCapabilities: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
-[23:06:58] [Worker-Main-3/ERROR] [ne.mi.co.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/citadel/citadel_tomes
+[00:25:11] [main/ERROR] [ne.mi.fm.lo.RuntimeDistCleaner/DISTXFORM]: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[00:25:11] [main/INFO] [STDERR/]: [dev.latvian.mods.rhino.JavaMembers:getDeclaredMethodsSafe:836]: [Rhino] Failed to get declared methods for yesman.epicfight.world.capabilities.EpicFightCapabilities: java.lang.RuntimeException: Attempted to load class net/minecraft/client/player/LocalPlayer for invalid dist DEDICATED_SERVER
+[00:25:15] [Worker-Main-1/ERROR] [ne.mi.co.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/citadel/citadel_tomes
 com.google.gson.JsonSyntaxException: Unknown type 'minecraft:set_written_book_pages'
-[23:06:58] [Worker-Main-3/ERROR] [ne.mi.co.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/catacombs/crypt_loot
+[00:25:15] [Worker-Main-1/ERROR] [ne.mi.co.ForgeHooks/]: Couldn't parse element loot_tables:irons_spellbooks:chests/catacombs/crypt_loot
 com.google.gson.JsonSyntaxException: Missing name, expected to find a string
+[00:25:16] [main/WARN] [KubeJS Server/]: Failed to parse recipe 'cataclysm:stonecutting/azure_seastone_brick_stair_from_stonecutting[minecraft:stonecutting]'! Falling back to vanilla: ItemStack 'result' can't be empty!
+--- KubeJS script problems ---
 --- last 40 log lines ---
-[23:07:59] [Server thread/INFO] [journeymap/]: Loaded journeymap.common.helpers.ForgeHooks@1eac4e94 for service interface journeymap.api.services.CommonPlatformService
-[23:07:59] [Server thread/INFO] [journeymap/]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
-[23:07:59] [Server thread/INFO] [journeymap/]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
-[23:07:59] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "6.0.7": journeymap.server.global.config
-[23:07:59] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.global.config
-[23:07:59] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "6.0.7": journeymap.server.default.config
-[23:07:59] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.default.config
-[23:07:59] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.minecraft~overworld.config
-[23:07:59] [Server thread/INFO] [journeymap/]: blue_skies~everdawn (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.blue_skies~everdawn.config
-[23:07:59] [Server thread/INFO] [journeymap/]: aether~the_aether (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.aether~the_aether.config
-[23:07:59] [Server thread/INFO] [journeymap/]: irons_spellbooks~pocket_dimension (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.irons_spellbooks~pocket_dimension.config
-[23:07:59] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
-[23:07:59] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.minecraft~the_end.config
-[23:07:59] [Server thread/INFO] [journeymap/]: blue_skies~everbright (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.blue_skies~everbright.config
-[23:07:59] [Server thread/INFO] [journeymap/]: ae2~spatial_storage (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.ae2~spatial_storage.config
-[23:07:59] [Server thread/INFO] [ne.be.lo.WeaponRegistry/]: Encoded Weapon Attribute registry size: 218455 bytes (uncompressed), 11808 bytes (compressed), compression ratio: 94.6% (in 2 string chunks with the size of 10000)
-[23:07:59] [ForkJoinPool.commonPool-worker-1/INFO] [io.re.ir.IronsLib/]: Loaded 259
-[23:07:59] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
-[23:07:59] [Server thread/WARN] [ModernFix/]: Dedicated server took 100.497 seconds to load
-[23:08:00] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping the server
-[23:08:00] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
-[23:08:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
-[23:08:00] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
-[23:08:03] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
-[23:08:05] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
+[00:26:13] [Server thread/INFO] [journeymap/]: Found @JourneyMapPlugin: journeymap.api.plugins.LoadedChunkOverlayPlugin
+[00:26:13] [Server thread/INFO] [journeymap/]: Initialized IJourneyMapPlugin as:journeymap.api.plugins.LoadedChunkOverlayPlugin: for:journeymap_chunk_overlay
+[00:26:13] [Server thread/INFO] [journeymap/]: global (FirstLoaded) Setting config file to version "6.0.7": journeymap.server.global.config
+[00:26:13] [Server thread/INFO] [journeymap/]: global (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.global.config
+[00:26:13] [Server thread/INFO] [journeymap/]: default (FirstLoaded) Setting config file to version "6.0.7": journeymap.server.default.config
+[00:26:13] [Server thread/INFO] [journeymap/]: default (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.default.config
+[00:26:13] [Server thread/INFO] [journeymap/]: minecraft~overworld (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.minecraft~overworld.config
+[00:26:13] [Server thread/INFO] [journeymap/]: blue_skies~everdawn (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.blue_skies~everdawn.config
+[00:26:13] [Server thread/INFO] [journeymap/]: minecraft~the_nether (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.minecraft~the_nether.config
+[00:26:13] [Server thread/INFO] [journeymap/]: blue_skies~everbright (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.blue_skies~everbright.config
+[00:26:13] [Server thread/INFO] [journeymap/]: minecraft~the_end (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.minecraft~the_end.config
+[00:26:13] [Server thread/INFO] [journeymap/]: irons_spellbooks~pocket_dimension (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.irons_spellbooks~pocket_dimension.config
+[00:26:13] [Server thread/INFO] [journeymap/]: aether~the_aether (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.aether~the_aether.config
+[00:26:13] [Server thread/INFO] [journeymap/]: ae2~spatial_storage (Valid) Creating config file: ./journeymap/server/6.0/journeymap.server.ae2~spatial_storage.config
+[00:26:13] [Server thread/INFO] [ne.be.lo.WeaponRegistry/]: Encoded Weapon Attribute registry size: 218455 bytes (uncompressed), 11808 bytes (compressed), compression ratio: 94.6% (in 2 string chunks with the size of 10000)
+[00:26:13] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[00:26:13] [Server thread/WARN] [ModernFix/]: Dedicated server took 87.582 seconds to load
+[00:26:13] [ForkJoinPool.commonPool-worker-1/INFO] [io.re.ir.IronsLib/]: Loaded 259
+[00:26:15] [Server thread/INFO] [co.gi.al.al.AlexsMobs/]: Found Pupfish chunk at 799 ~ -624 after 22 tries
+[00:26:16] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping the server
+[00:26:16] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[00:26:16] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[00:26:16] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[00:26:18] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everdawn
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/blue_skies:everbright
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/irons_spellbooks:pocket_dimension
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/aether:the_aether
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (everdawn): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (everbright): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (pocket_dimension): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (the_aether): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[00:26:19] [Server thread/INFO] [minecraft/MinecraftServer]: ThreadedAnvilChunkStorage: All dimensions are saved
