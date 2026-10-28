@@ -1,6 +1,18 @@
 hash-format = "sha256"
 
 [[files]]
+file = "kubejs/server_scripts/ascension_loot.js"
+hash = "d247e9a1c3e590f85de2280753f58687766226a446cf1308cc05e4b3914fa24f"
+
+[[files]]
+file = "kubejs/server_scripts/ascension_recipes.js"
+hash = "42832fec08de07973cced618b458579b1fff5b7d515758bc8bac6b3d5a888b0f"
+
+[[files]]
+file = "kubejs/server_scripts/ascension_welcome.js"
+hash = "ddc30185495ef571b0d71812e73b7ca9ad12a96fb44c57256a7bce81e14fb1d7"
+
+[[files]]
 file = "mods/ae2.pw.toml"
 hash = "4f94db9eeb714f81d02e125e2021e55c7ca6c6ef8423bf6488dd51ebdfdf6fc5"
 metafile = true
