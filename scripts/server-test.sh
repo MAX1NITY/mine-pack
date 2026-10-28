@@ -85,6 +85,12 @@ for crash in crash-reports/*.txt; do
   rep "--- $(basename "$crash") (first 60 lines) ---"
   head -60 "$crash" >> "$REPORT"
 done
+rep "--- KubeJS script problems ---"
+for f in kubejs/logs/*.log; do
+  [ -f "$f" ] || continue
+  rep "(from $f)"
+  grep -iE "error|warn|exception|could not|unknown|not found|failed" "$f" | head -60 >> "$REPORT"
+done
 rep "--- last 40 log lines ---"
 tail -40 server.log >> "$REPORT"
 [ $OK -eq 1 ]
